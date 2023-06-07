@@ -1,0 +1,22 @@
+{
+    "name": "bs-toaster",
+    "version": "1.0.0",
+    "description": "A toaster library to provide toast messages to users.",
+    "main": "lib/bs-toaster.js",
+    "types": "lib/bs-toaster.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "keywords": [],
+    "author": "BeSafe-Org",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "18.14.0",
+        "typescript": "4.9.5"
+    },
+    "files": [
+        "lib/**/*"
+    ]
+}
